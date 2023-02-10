@@ -1,0 +1,28 @@
+
+package principal;
+
+public class Principal {
+
+
+    public static void main(String[] args) 
+    {
+        //INICIO
+        System.out.println("Banana: Oi, essas sao as 5 principais operacoes matematicas :D:D:D:D :");
+        
+        //ALTERE AQUI
+        int a = 5;
+        int b = 6;
+        
+        //VALORES
+        System.out.println("VALOR DE A:" + a);
+        System.out.println("VALOR DE B:" + b);
+        
+        //OPERAÔES
+        System.out.println("SOMA (a + b):" + (a+b));
+        System.out.println("SUBTRACAO (a - b):" + (a-b));
+        System.out.println("DIVISAO (a/b):" + (a/b));
+        System.out.println("MULTIPLICACAO (a*b):" + (a*b));
+        System.out.println("PORCENTAGEM (50% de a):"  + (a*0.5));
+    }
+    
+}

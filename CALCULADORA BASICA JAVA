@@ -1,0 +1,64 @@
+
+package principal;
+
+import java.util.Scanner;
+
+public class Principal 
+{
+
+    public static void main(String[] args) 
+        
+    {
+        
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Digite o VALOR 1:");
+       
+        float valor1 = teclado.nextInt();
+        
+        System.out.println("Digite o VALOR 2:");
+       
+        float valor2 = teclado.nextInt();
+        
+        System.out.println("QUAL OPERAÇÂO DESEJA:\n1-ADICAO\n2-SUBTRACAO\n3-DIVISAO\n4-MULTIPLICACAO");
+        
+         int operacao  = teclado.nextInt();
+      
+         if (operacao == 1)
+         {
+         float resultado = valor1 + valor2;
+         System.out.println("O resultado da soma e:" + resultado );
+         
+         }
+         
+         if (operacao == 2)
+         {
+         float resultado = valor1 - valor2;
+         System.out.println("O resultado da subtracao e:" + resultado );
+         
+         }
+         if (operacao == 3)
+         {
+         float resultado = valor1 / valor2;
+         System.out.println("O resultado da divisão e:" + resultado );
+         
+         }
+         if (operacao == 4)
+         {
+         float resultado = valor1 * valor2;
+         System.out.println("O resultado da multiplicacao e:" + resultado );
+         
+         }
+         if(operacao < 1 || operacao > 4)
+         {
+             System.out.println("NUMERO DE OPERACAO MUITO ALTO/BAIXO!");
+         }
+        
+        
+ 
+        
+        
+        
+    }
+    
+}

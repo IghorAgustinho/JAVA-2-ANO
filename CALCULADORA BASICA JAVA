@@ -31,25 +31,25 @@ public class Principal
          
          }
          
-         if (operacao == 2)
+         else if (operacao == 2)
          {
          float resultado = valor1 - valor2;
          System.out.println("O resultado da subtracao e:" + resultado );
          
          }
-         if (operacao == 3)
+         else if (operacao == 3)
          {
          float resultado = valor1 / valor2;
-         System.out.println("O resultado da divisão e:" + resultado );
+         System.out.println("O resultado da divisao e:" + resultado );
          
          }
-         if (operacao == 4)
+         else if (operacao == 4)
          {
          float resultado = valor1 * valor2;
          System.out.println("O resultado da multiplicacao e:" + resultado );
          
          }
-         if(operacao < 1 || operacao > 4)
+         else
          {
              System.out.println("NUMERO DE OPERACAO MUITO ALTO/BAIXO!");
          }

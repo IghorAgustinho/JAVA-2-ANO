@@ -1,0 +1,41 @@
+
+package listaexercicios1;
+
+import java.util.Scanner;
+
+
+public class ListaExercicios1 {
+
+   
+    public static void main(String[] args) {
+        
+        Scanner ipi = new Scanner(System.in);
+        
+        System.out.println("Qual a Porcentagem do IPI?"); 
+        float porcentagemIPI = ipi.nextFloat();
+        
+        System.out.println("Qual o codigo do produto 1?"); 
+        int cdgp1 = ipi.nextInt();
+        
+        System.out.println("Qual a quantidade do produto 1?"); 
+        int qtdp1 = ipi.nextInt();
+        
+                System.out.println("Qual o valor do produto 1?"); 
+        float vlrp1 = ipi.nextFloat();
+        
+        System.out.println("Qual o codigo do produto 2?"); 
+        int cdgp2 = ipi.nextInt();
+        
+        System.out.println("Qual a quantidade do produto 2?"); 
+        int qtdp2 = ipi.nextInt();
+        
+                System.out.println("Qual o valor do produto 2?"); 
+        float vlrp2 = ipi.nextFloat();
+        
+        float valorAPagar = (vlrp1*qtdp1 + vlrp2*qtdp2)* (porcentagemIPI/100+1);
+                
+                System.out.println("VALOR TOTAL :" + valorAPagar);
+            
+    }
+    
+}

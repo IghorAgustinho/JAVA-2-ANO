@@ -1,0 +1,28 @@
+
+package listaexercicios1;
+
+import java.util.Scanner;
+
+
+public class ListaExercicios1 {
+
+   
+    public static void main(String[] args) {
+        
+        Scanner valor = new Scanner(System.in);
+        
+        System.out.println("Qual o SM?"); 
+        float sm = valor.nextFloat();
+        
+        System.out.println("Qual o Salario?"); 
+        float salario = valor.nextFloat();
+        
+        float nsms = salario/sm;
+        
+        System.out.println("numero de salarios minimos :" + nsms);
+        
+        
+            
+    }
+    
+}

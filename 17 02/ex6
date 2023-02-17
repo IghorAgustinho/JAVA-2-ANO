@@ -1,0 +1,30 @@
+
+package listaexercicios1;
+
+import java.util.Scanner;
+
+
+public class ListaExercicios1 {
+
+   
+    public static void main(String[] args) {
+        
+        Scanner valor = new Scanner(System.in);
+        
+        System.out.println("Qual o numero?"); 
+        int nmr = valor.nextInt();
+        
+        int antecessor = nmr - 1;
+        int sucessor = nmr + 1;
+        
+        System.out.println("antecessor :" + antecessor + "  sucessor:" + sucessor); 
+        
+        
+        
+       
+        
+        
+            
+    }
+    
+}

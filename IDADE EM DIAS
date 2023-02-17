@@ -1,0 +1,34 @@
+
+package listaexercicios1;
+
+import java.util.Scanner;
+
+
+public class ListaExercicios1 {
+
+   
+    public static void main(String[] args) {
+        
+        
+        Scanner idade = new Scanner(System.in);
+        
+        System.out.println("Insira A Sua Idade em Anos:");
+        int idadeAnos = idade.nextInt();
+        
+        System.out.println("Insira A Sua Idade em MESES:");
+        int idadeMeses = idade.nextInt();
+        
+        System.out.println("Insira A Sua Idade em DIAS:");
+        int idadeDias = idade.nextInt();
+        
+       int idadeAnos2 = idadeAnos *   365;
+       int idadeMeses2 = idadeMeses*30;
+        
+       int idadeTotalEmDias = idadeAnos2 + idadeMeses2 + idadeDias;
+       
+       System.out.println("Idade total em dias :" + idadeTotalEmDias);
+        
+                
+    }
+    
+}

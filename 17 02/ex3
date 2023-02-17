@@ -1,0 +1,25 @@
+
+package listaexercicios1;
+
+import java.util.Scanner;
+
+
+public class ListaExercicios1 {
+
+   
+    public static void main(String[] args) {
+        
+        Scanner reajuste = new Scanner(System.in);
+                
+                System.out.println("Insira o Saldo:");
+                
+                float saldo = reajuste.nextFloat();
+                
+                double saldo2 = saldo+ (saldo * 0.01);
+                
+                System.out.println("Saldo Após Reajuste:" + saldo2);
+                
+            
+    }
+    
+}

@@ -1,0 +1,49 @@
+
+package com.mycompany.tarefas;
+import java.util.Scanner;
+
+
+public class Tarefas {
+
+    public static void main(String[] args) {
+        System.out.println("Qual tarefa quer ver? 1 ou 2");
+        Scanner tarefa = new Scanner(System.in);
+        
+       int nTarefa = tarefa.nextInt();
+       
+       if (nTarefa == 1)
+       {
+        double radianos = 1.5;
+        
+        
+           System.out.println("Qual a distancia?");
+           float distancia = tarefa.nextFloat();
+           System.out.println("Qual a Altura?");
+           float altura = tarefa.nextFloat();
+           System.out.println("Qual o angulo?");
+           float graus = tarefa.nextFloat();
+           
+          double graus1= graus * 0,0174533;
+          double graus2= Math.tan(graus1);
+          
+          System.out.println(graus2);
+          
+          
+         double fim = distancia * 0.3640 + altura;
+         System.out.println(fim);
+        
+   
+       }
+       
+       else if (nTarefa == 2)
+       {
+           
+       }
+       
+       else 
+       {
+       System.out.println("numero errado");
+       }
+    }
+}
+        
